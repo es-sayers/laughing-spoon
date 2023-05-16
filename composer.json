@@ -1,0 +1,21 @@
+{
+    "name": "esayers/laughing-spoon",
+    "description": "Recipe website scraper",
+    "type": "project",
+    "license": "MIT License",
+    "autoload": {
+        "psr-4": {
+            "Esayers\\LaughingSpoon\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ethan Sayers"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "symfony/dom-crawler": "^6.2",
+        "symfony/css-selector": "^6.2"
+    }
+}
