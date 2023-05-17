@@ -30,7 +30,7 @@ abstract class Integration implements IntegrationParse
                 "source" => $url,
                 "title" => $this->parseTitle($crawler),
                 "author" => $this->parseAuthor($crawler),
-                "yield" => $this->parseServings($crawler),
+                "servings" => $this->parseServings($crawler),
                 "publishedAt" => $this->parsePublishedDate($crawler),
                 "prepTime" => $this->parsePrepTime($crawler),
                 "cookTime" => $this->parseCookTime($crawler),
